@@ -17,6 +17,7 @@ class CreateMatchesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->unsignedInteger('group_id');
+            $table->unsignedInteger('hometeam_id');
             $table->unsignedInteger('awayteam_id');
             $table->unsignedInteger('homescore');
             $table->unsignedInteger('awayscore');
