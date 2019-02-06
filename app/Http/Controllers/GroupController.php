@@ -14,7 +14,7 @@ class GroupController extends Controller
      */
     public function index()
     {
-        //
+        // laat lijst van groepen zien, open een view
     }
 
     /**

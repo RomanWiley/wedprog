@@ -14,7 +14,7 @@ class TeamController extends Controller
      */
     public function index()
     {
-        //
+        // laat lijst van teams zien, open een view
     }
 
     /**
@@ -24,7 +24,7 @@ class TeamController extends Controller
      */
     public function create()
     {
-        //
+        // maak een view (form) om teams in te voeren (en ga dan naar de functie hieronder (store) om het in dbwedprog op te slaan)
     }
 
     /**
@@ -35,7 +35,7 @@ class TeamController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // sla de teams op in de database dbwedprog (insert into)
     }
 
     /**
@@ -46,7 +46,7 @@ class TeamController extends Controller
      */
     public function show(team $team)
     {
-        //
+        // laat 1 team zien, in een view die een edit-knop bevat
     }
 
     /**
@@ -57,7 +57,7 @@ class TeamController extends Controller
      */
     public function edit(team $team)
     {
-        //
+        // open de view (form) om een team te wijzigen en ga daarna naar onderstaande functie update om het in de database te wijzigen
     }
 
     /**
@@ -80,6 +80,6 @@ class TeamController extends Controller
      */
     public function destroy(team $team)
     {
-        //
+        // verwijder dit team, via bijv een knop in de edit-view of team-lijst
     }
 }
