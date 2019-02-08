@@ -14,7 +14,7 @@ class MatchController extends Controller
      */
     public function index()
     {
-        //
+        // laat lijst van wedstrijden (matches) zien, open een view
     }
 
     /**
