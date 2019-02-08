@@ -5,4 +5,4 @@ Groeten van Constant
 
 Groeten van Dhiradj
 
-Ook groeten van René
+Ook groeten van Renee
