@@ -4,5 +4,5 @@ Study project, match schedules
 Groeten van Constant
 
 Groeten van Dhiradj
-
-Ook groeten van René
+Groeten van Dhiradj deel 2
+Ook groeten van Renee
