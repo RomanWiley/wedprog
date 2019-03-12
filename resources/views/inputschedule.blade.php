@@ -6,7 +6,7 @@
 
     <h1 class="title">Toevoegen Toernooivariabelen</h1>
 
-    <form method="post" action="/showschedule">
+    <form method="post" action="/showtournament">
     @csrf
 
 <div class="field">

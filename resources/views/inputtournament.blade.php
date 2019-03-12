@@ -6,10 +6,17 @@
 
     <h1 class="title">Toevoegen Toernooivariabelen</h1>
 
-    <form method="post" action="/showschedule">
+    <form method="post" action="/showtournament">
     @csrf
 
-<div class="field">
+    <div class="field">
+		<label class="label" for="iToernooiNaam">Naam van het toernooi</label>
+		<div class="control">
+			<input type="number" class="input form-control" name="iToernooiNaam" value="">
+		</div>
+    </div>
+
+    <div class="field">
 		<label class="label" for="iAantalPoules">Aantal Poules</label>
 		<div class="control">
 			<input type="number" class="input form-control" name="iAantalPoules" value="">
@@ -36,7 +43,7 @@
         </div>
 	</div>
 </form>
-    {{-- @include('error') --}}
 </body>
+
 @endsection
 
