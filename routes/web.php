@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/inputschedule', function () {
     return view('inputschedule');
 });
+
+Route::get('/inputtournament', function () {
+    return view('inputtournament');
+});

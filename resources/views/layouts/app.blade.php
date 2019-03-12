@@ -43,8 +43,9 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link text-light" href='/'>Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href='/inputschedule'>Schema maken</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href='/inputresults'>Uitslagen invullen</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href='/inputtournament'>Toernooi aanmaken</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href='/inputresults'>Poules samenstellen</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href='/inputresults'>Teamnamen invullen</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Toernooien</a>
                             <div class="dropdown-menu">
