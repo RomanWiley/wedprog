@@ -7,7 +7,7 @@
     <title>Wedprog Home</title>
     <link rel='stylesheet' type='text/css' href="css/wedprog.css" >
 </head>
-<body class="body">
+<body>
     <h1>Wedstrijdprogramma</h1>
 
     <a href="/inputschedule">Vul gegevens in voor schema</a>
