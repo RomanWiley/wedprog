@@ -1,0 +1,52 @@
+tournaments, model: Tournament
+
+  id
+* tournament_name (30)
+* groups
+* playfields
+* match_time (in min, integer)
+  created_at
+  updated_at
+
+* is mass-assigned in Laravel
+
+groups, model: group
+
+  id
+* group_name (30)
+* group_size
+  created_at
+  updated_at
+
+teams, model: team
+
+  id
+* team_name (30)
+* contact (60)
+* group_id
+* played
+* points
+* goals_scored
+* goals_conceded
+  created_at
+  updated_at
+
+
+matches, model: match
+(referee later in model plaatsen?, nu invullen)
+
+  id
+(1)* match_name
+* referee
+* group_id
+* hometeam_id
+* awayteam_id
+* homescore
+* awayscore
+* matchstart
+* notes
+  created_at
+  updated_at
+
+(1) match_name is used for comments on which round the match is played, like "1st round-match", or "semi-final"
+

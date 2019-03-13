@@ -15,10 +15,12 @@ class CreateTournamentsTable extends Migration
     {
         Schema::create('tournaments', function (Blueprint $table) {
             $table->increments('id');
-            $table->varchar('tournament_name',30);
-            $table->integer('groups');
-            $table->integer('playfields');
+            $table->string('tournament_name', 30);
+            $table->unsignedInteger('groups');
+            $table->unsignedInteger('playfields');
+            $table->unsignedInteger('match_time');
             $table->timestamps();
+
         });
     }
 

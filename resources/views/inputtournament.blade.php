@@ -12,7 +12,7 @@
     <div class="field">
 		<label class="label" for="iToernooiNaam">Naam van het toernooi</label>
 		<div class="control">
-			<input type="number" class="input form-control" name="iToernooiNaam" value="">
+			<input type="text" class="input form-control" name="iToernooiNaam" value="">
 		</div>
     </div>
 

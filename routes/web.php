@@ -22,3 +22,4 @@ Route::get('/inputschedule', function () {
 Route::get('/inputtournament', function () {
     return view('inputtournament');
 });
+
